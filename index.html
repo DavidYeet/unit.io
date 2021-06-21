@@ -1,0 +1,47 @@
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="java.js"/>
+    <title>Unit Conversion Calculator</title>
+  </head>
+
+<body>
+
+<h2>Length Converter</h2>
+<p>Type a value in one of the boxes to convert the value to metric:</p>
+
+<p>
+<label>Feet</label>
+<input id="inputFeet" type="number" placeholder="Feet" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)"> 
+</p>
+
+<label>Inches</label>
+<input id="inputInches" type="number" placeholder="Inches" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)"> 
+</p>
+
+<label>yards</label>
+<input id="inputYards" type="number" placeholder="Yards" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)"> 
+</p>
+
+<p>
+  <label>Miles</label>
+  <input id="inputMiles" type="number" placeholder="Miles" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+</p>
+
+<p>cm: <span id="outputcm"></span></p>
+  
+</body>
+</html>
